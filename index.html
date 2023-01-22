@@ -5,16 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test_JS</title>
+    <link rel="stylesheet" href="./styles.css/style.css" />
   </head>
-  <body>
+  <body class="page">
     <header>
-      <h1>Test</h1>
+      <button
+        class="btn_menu is-open"
+        type="button"
+        aria-expanded="false"
+        aria-controls="menu-contaner"
+        data-menu-button
+      >
+        <svg width="40px" height="40px" aria-label="Перемикач меню">
+          <use class="use_1" href="./images/icons/icons.svg#dagger"></use>
+          <use class="use_2" href="./images/icons/icons.svg#menu_path"></use>
+        </svg>
+      </button>
+
+      <div class="menu" id="menu-menu-contaner" data-menu>
+        <h1>Test</h1>
+        <p>Випадаюче меню</p>
+      </div>
     </header>
-    <div>
-      <p>aaa</p>
+    <div class="button_block">
+      <a class="button_block_link" href="./index2.html">Button 1</a>
+      <button class="button_block_btn" type="button">Button 2</button>
     </div>
 
     <script src="./JS/js.js"></script>
     <script src="./JS/modul_four.js"></script>
+    <script src="./JS/js-test.js"></script>
   </body>
 </html>

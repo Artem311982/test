@@ -1,14 +1,6 @@
-Оголоси три змінні і присвой кожній з них значення, використовуючи нотацію квадратних дужок.
+Оголоси дві змінні, productName для назви товару, і pricePerItem для зберігання ціни за штуку. При
+оголошенні надай змінним наступні значення:
 
-Ім'я змінної	Значення змінної
-firstElement	перший елемент масиву
-secondElement	другий елемент масиву
-lastElement	останній елемент масиву
-
-You get an array of numbers, return the sum of all of the positives ones.
-
-Example [1,-4,7,12] => 1 + 7 + 12 = 20
-
-Note: if there is nothing to sum, the sum is default to 0.
-
-
+назва - рядок "Droid"; ціна за штуку - число 2000. Оголошена змінна productName Значення змінної
+productName - це рядок "Droid" Оголошена змінна pricePerItem Значення змінної pricePerItem - це
+число 2000
