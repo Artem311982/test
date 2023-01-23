@@ -19,6 +19,10 @@
   display: none;
 }
 
+.menu .is-open {
+  display: block;
+}
+
 /* .use_2 {
   display: block;
 } */
