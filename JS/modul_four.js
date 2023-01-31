@@ -1,8 +1,14 @@
-const atTheOldToad = {
-  potions: [
-    { name: 'Speed potion', price: 460, students: [Anna, Manna] },
-             { name: 'Dragon breath', price: 780, students: [Den, Fin] },
-    { name: 'Stone skin', price: 520, students: [Sollo, Mia] },
-  ],
-}; 
-console.log(atTheOldToad.potions.flatMap(potion.students));
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector('[data-modal-open]'),
+    closeModalBtn: document.querySelector('[data-modal-close]'),
+    modal: document.querySelector('[data-modal]'),
+  };
+
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
+
+  function toggleModal() {
+    refs.modal.classList.toggle('is-hidden');
+  }
+})();
