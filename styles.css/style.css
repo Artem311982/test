@@ -5,12 +5,17 @@
 .btn_menu {
   display: inline-block;
   position: absolute;
-  margin-left: 50%;
-  margin-top: 30px;
+  left: 50%;
+  top: 30px;
   padding: 0;
   border: 0;
   background-color: transparent;
 }
+
+.use_1 {
+  display: none;
+}
+
 .btn_menu.is-open .use_1 {
   display: block;
 }
@@ -18,14 +23,6 @@
 .btn_menu.is-open .use_2 {
   display: none;
 }
-
-.menu .is-open {
-  display: block;
-}
-
-/* .use_2 {
-  display: block;
-} */
 
 .menu {
 }

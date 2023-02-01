@@ -1,0 +1,26 @@
+.page {
+  position: relative;
+}
+
+.btn-menu {
+  display: inline-flex;
+  position: absolute;
+  right: 50%;
+  top: 30px;
+  padding: 0;
+  margin: 0;
+  border: 2px solid black;
+  background-color: transparent;
+}
+
+.use_1 {
+  display: none;
+}
+
+.btn-menu.is-open .use_1 {
+  display: block;
+}
+
+.btn-menu.is-open .use_2 {
+  display: none;
+}
