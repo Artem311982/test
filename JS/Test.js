@@ -1,13 +1,9 @@
-const a = 'Президент Владимир Зеленский призвал'.toUpperCase();
+const objC = {
+  a: 1,
+};
 
-function slugify(title) {
-  // Change code below this line
-  let a = title.toUpperCase();
-  a = a.split(' ');
-  a = a.join('-');
+const objB = Object.create(objC);
 
-  return a;
-  // Change code above this line
-}
+objB.b = 2;
 
-console.log(slugify('Президент Владимир Зеленский призвал'));
+console.log(objB);

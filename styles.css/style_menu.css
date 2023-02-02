@@ -2,25 +2,24 @@
   position: relative;
 }
 
-.btn-menu {
-  display: inline-flex;
+.btn {
   position: absolute;
-  right: 50%;
-  top: 30px;
+  left: 50%;
+  top: 10px;
   padding: 0;
   margin: 0;
-  border: 2px solid black;
+  border: 0;
   background-color: transparent;
 }
 
-.use_1 {
+.icon_one {
   display: none;
 }
 
-.btn-menu.is-open .use_1 {
+.btn.is-open .icon_one {
   display: block;
 }
 
-.btn-menu.is-open .use_2 {
+.btn.is-open .icon_two {
   display: none;
 }
