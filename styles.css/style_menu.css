@@ -1,25 +1,23 @@
-.page {
-  position: relative;
-}
-
 .btn {
-  position: absolute;
-  left: 50%;
-  top: 10px;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid green;
+  background-color: red;
 }
 
-.icon_one {
+.btn:hover {
+  border-radius: 20%;
+  border: 5px solid red;
+  background-color: green;
+}
+
+.icon-path {
   display: none;
 }
 
-.btn.is-open .icon_one {
+.btn.is-open .icon-path {
   display: block;
 }
 
-.btn.is-open .icon_two {
+.btn.is-open .icon-dagger {
   display: none;
 }
