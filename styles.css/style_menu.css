@@ -1,23 +1,18 @@
 .btn {
-  border-radius: 10px;
-  border: 2px solid green;
-  background-color: red;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
 }
 
-.btn:hover {
-  border-radius: 20%;
-  border: 5px solid red;
-  background-color: green;
-}
-
-.icon-path {
+.use-1 {
   display: none;
 }
 
-.btn.is-open .icon-path {
+.btn.is-open .use-1 {
   display: block;
 }
 
-.btn.is-open .icon-dagger {
+.btn.is-open .use-2 {
   display: none;
 }
