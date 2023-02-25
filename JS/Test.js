@@ -1,9 +1,9 @@
-const objC = {
-  a: 1,
-};
+// const objC = {
+//   a: 1,
+// };
 
-const objB = Object.create(objC);
+// const objB = Object.create(objC);
 
-objB.b = 2;
+// objB.b = 2;
 
-console.log(objB);
+// console.log(objB);

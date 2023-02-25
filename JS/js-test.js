@@ -1,15 +1,17 @@
-// function createArrayOfNumbers(min, max) {
-//   const numbers = [];
-//   // Change code below this line
+const hotel = {
+  username: 'Resort hotel',
+  showThis() {
+    function foo(jkl) {
+      // Стрілки запам'ятовують контекст під час оголошення
+      // з батьківської області видимості
+      console.log('this in foo: ', jkl);
+    }
 
-//   numbers.push(min);
-//   numbers.push(max);
-//   // Change code above this line
-//   return numbers;
-// }
+    console.log(foo('kll;'));
+    console.log('this in showThis: ', this);
+  },
+};
 
-// const a = (1, 2, 3);
-
-// const b = (1, 2, 3);
-
-// console.log(createArrayOfNumbers(a, b));
+hotel.showThis();
+// this in foo: {username: 'Resort hotel', showThis: ƒ}
+// this in showThis: {username: 'Resort hotel',showThis: ƒ}
